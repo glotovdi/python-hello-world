@@ -2,7 +2,8 @@ def greetings(name):
     print(f'Здарова, {name}!')
 
 def main():
-    greetings('Димон')
+    name = input("Введите имя \n")
+    greetings(name)
 
-if __name__ == '__main__':
-    main()
+
+main()
