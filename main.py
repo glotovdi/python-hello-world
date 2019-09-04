@@ -22,4 +22,20 @@ def request():
 
 request()
 
+def snow():
+    coords = [{'x': 100, 'y': 0}, {'x': 200, 'y': 0}, {'x': 300, 'y': 0}]
+
+    isContinue = True
+
+    while isContinue:
+        for i in coords:
+            i['y'] = i['y'] + 100
+            #draw()
+            print(i)
+        if i['y'] > 1000:
+            isContinue = False
+
+snow()
+
+
 
